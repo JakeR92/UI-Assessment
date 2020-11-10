@@ -2,13 +2,16 @@
 
 Implement the design provided in `design.png` as a set of React components.
 
-There is a stub for the data structure in `app.js`. Please use this to drive the view content and derive any calculated data from this in your components.
+![account overview design](https://github.com/feefo/ui-assessment/blob/master/design.png?raw=true)
+
+There is a stub for the data structure in `app.js`. Please use this to drive the view content and derive any calculated data from this in your components. The container component has also been created `AccountOverview` `./src/account-overview.jsx`.
 
 ## We would like to see
 - The layout should grow/shrink sensibly with the viewport
 - The design split into several components
 - Usage of `proptypes`
 - Unit tests covering your components
+- a11y considered and relevant ARIA attributes added
 
 ## Technical Notes
 - Assets for the font in the design (roboto) have been included via google fonts
