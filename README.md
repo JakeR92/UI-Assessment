@@ -19,6 +19,10 @@ There is a stub for the data structure in `app.js`. Please use this to drive the
 - The repository is set up to work with `styled-components` if you feel comfortable doing so, please use this instead of css
 - The repository is set up to use jest + testing library for unit tests
 
+## Setup
+1. Run `npm install` to install required dependencies
+2. Run `npm run start` to start a local development server
+
 ## Available Scripts
 
 In the project directory, you can run:
