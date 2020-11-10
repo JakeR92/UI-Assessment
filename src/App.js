@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './app.css';
+import AccountOverview from './account-overview';
 
 function App() {
+  const accountOverviewStub = {
+    supportContact: {
+      name: 'John Smith',
+      email: 'john.smith@feefo.com'
+    },
+    salesOverview: {
+      uploads: 8,
+      successfulUploads: 3,
+      linesAttempted: 20,
+      linesSaved: 4,
+      lastUploadDate: 1605001226079,
+    }
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AccountOverview data={accountOverviewStub}/>
     </div>
   );
 }
