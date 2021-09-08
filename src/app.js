@@ -12,7 +12,6 @@ function App() {
       successfulUploads: 3,
       linesAttempted: 20,
       linesSaved: 4,
-      lastUploadDate: 1605001226079,
     }
   }
 
