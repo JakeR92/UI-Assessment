@@ -14,7 +14,7 @@ There is a stub for the data structure in `app.js`. Please use this to drive the
 - a11y considered and relevant ARIA attributes added
 
 ## Technical Notes
-- Assets for the font in the design (roboto) have been included via google fonts
+- Assets for the font in the design (roboto) have been included via google fonts. Exact font size specification in components is not necessary, as long as the result is close to the design. 
 - Font Awesome icons are available via the Font Awesome React bindings (there is a usage example in `account-overview.jsx`)
 - The repository is set up to work with `styled-components` if you feel comfortable doing so, please use this instead of css
 - The repository is set up to use jest + testing library for unit tests
